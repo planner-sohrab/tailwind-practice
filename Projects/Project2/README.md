@@ -1,5 +1,5 @@
 # Project 02 (Crypto Market)
-[Demo]()
+[Demo](https://enchanting-horse-16543d.netlify.app/)
 
 - Crypto landing webpage
 - Designed with pure HTML5 and CSS3
