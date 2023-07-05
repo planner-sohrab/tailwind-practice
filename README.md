@@ -1,6 +1,10 @@
-# Tailwind Practice and Projects
+# HTML, CSS and Tailwind Projects
 ## Projects List
-1. [Card]()
-2. [Project_01]()
-3. [Project_02](https://github.com/planner-sohrab/crypto-market)
-4. [Project_03](https://github.com/planner-sohrab/tailwind-practice/tree/main/Projects/Project3)
+### HTML and CSS Projects
+1. Project 01 [SEO Master](https://github.com/planner-sohrab/tailwind-practice/tree/main/Projects/SEO%20Master)
+2. Project 02 [Crypto Market](https://github.com/planner-sohrab/crypto-market)
+3. Project 03 [Fashion Hub](https://github.com/planner-sohrab/tailwind-practice/tree/main/Projects/Project3)
+
+
+### Tailwind Projects
+4. [Card](https://github.com/planner-sohrab/tailwind-practice/tree/main/Projects/Card%20Project)
