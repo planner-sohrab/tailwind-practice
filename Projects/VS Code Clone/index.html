@@ -8,29 +8,55 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <nav>
-      <div class="flex bg-gray-700 text-white pl-[36px]">
-        <img class="h-12 px-2 py-2" src="assets/logo.png" alt="logo" />
-        <span class="text-xl px-2 py-2">Visual Studio Code</span>
+    <div class="bg-[#25252b] text-center text-white text-base py-2">
+      This webpage is developed for
+      <span class="text-[#0984d4]">Educational </span>purpose only.
+    </div>
+    <nav class="flex bg-[#2c2c32] justify-between">
+      <div class="flex">
+        <div class="flex text-white ml-24">
+          <img class="h-10 px-2 py-2" src="assets/logo.png" alt="logo" />
+          <span class="text-xl px-2 py-2">Visual Studio Code</span>
+        </div>
+        <ul class="flex gap-x-2 ml-8 text-gray-400 items-center">
+          <li class=""><a href="#">Docs</a></li>
+          <li><a href="#">Updates</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">API</a></li>
+          <li><a href="#">Extensions</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Learn</a></li>
+        </ul>
       </div>
-      <ul class="flex gap-x-2 text-blue-700">
-        <li class=""><a href="#">Docs</a></li>
-        <li><a href="#">Updates</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">API</a></li>
-        <li><a href="#">Extensions</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Learn</a></li>
-      </ul>
-      <div>
-        <input type="search" name="search" id="search" />
-        <span><img src="assets/search.svg" alt="search" /></span
-        ><span>Search Docs</span>
-        <div>
-          <img src="assets/chevronDown.svg" alt="download" />
-          <span>Download</span>
+
+      <div class="flex">
+        <div class="flex gap-x-1 items-center bg-gray-400">
+          <img class="h-4 px-2" src="assets/search.svg" alt="search" />
+          <input
+            class="bg-gray-400 placeholder-gray-100"
+            type="search"
+            name="search"
+            id="search"
+            placeholder="Search Docs"
+          />
+        </div>
+        <div class="bg-blue-600 mr-12 flex items-center px-2 py-2 gap-x-2">
+          <img class="h-6" src="assets/download.svg" alt="download" />
+          <span class="text-white font-semibold">Download</span>
         </div>
       </div>
     </nav>
+    <!-- Navigation Complete -->
+    <div class="py-2 bg-[#25252b] text-center text-white text-base">
+      <span class="text-[#0984d4]">Version 1.80 </span>is now available! Read
+      about the new features and fixes from June.
+    </div>
+
+    <section class="bg-[#2c2c32] flex flex-col items-center">
+      <div class="text-white">
+        <h1 class="text-3xl">Code Editing.</h1>
+        <h1 class="text-3xl">Redefined.</h1>
+      </div>
+    </section>
   </body>
 </html>
